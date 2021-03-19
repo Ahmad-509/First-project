@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/eceb24a0ec.js" crossorigin="anonymous"></script>
+
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+nav
+{
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+nav>img
+{
+    height: 65%;
+    width: 7%;
+}
+nav>ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: center;
+}
+nav>ul>li
+{
+    list-style: none;
+    font-size: 16px;
+    color: grey;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding: 3px;
+}
+.li1
+{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+nav>ul>li:hover
+{
+    color: orangered;
+    font-weight: bold;
+    border-bottom: 2px solid orangered;
+}
+nav>button
+{
+    height: 60%;
+    width: 7%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+nav>button:hover
+{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+
+
+.header1
+{
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+    background-image: url(header11.png);
+    background-size: 100% 100%;
+    animation-name: header;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+@keyframes header
+{
+    0%{
+        background-image: url(header11.png);
+    }
+    33%{
+        background-image: url(header12.png);
+    }
+    66%
+    {
+        background-image: url(header13.jpg);
+    }
+}
+
+
+.heding1
+{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+    background-color: rgb(213, 241, 248);
+}
+.heding1>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: 7%;
+}
+.heding1>p
+{
+    font-size: 21px;
+    text-align: center;
+    color:black;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+}
+.gif
+{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 33%;
+    background-image: url(gif.gif);
+    background-size: 100% 100%;
+}
+.heding1>button
+{
+    height: 7%;
+    width: 15%;
+    background-color: palevioletred;
+    color: white;
+    border-bottom: 4px solid palevioletred;
+    border-top: 2px solid palevioletred;
+    border-left: 2px solid palevioletred;
+    border-right: 2px solid palevioletred;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 90%;
+    border-radius: 2px;
+}
+.heding1>button:hover
+{
+    background-color: white;
+    color: palevioletred;
+    transition-duration: 1.5s;
+}
+.text
+{
+    position: relative;
+    top: 8vh;
+    height: 5vh;
+    background-color: rgb(213, 241, 248);
+    font-size: 16px;
+    text-align: center;
+}
+.framepic
+{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    top: 15vh;
+    background-image: url(frame.jpg);
+    background-size: 100% 100%;
+}
+
+
+.heding2
+{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    top: 15vh;
+}
+.heding2>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: 13%;
+}
+.heding2>p
+{
+    font-size: 21px;
+    text-align: center;
+    color:black;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+.heding2>button
+{
+    height: 22%;
+    width: 15%;
+    background-color: rgb(57, 106, 185);
+    color: white;
+    border-bottom: 4px solid rgb(57, 106, 185);
+    border-top: 2px solid rgb(57, 106, 185);
+    border-left: 2px solid rgb(57, 106, 185);
+    border-right: 2px solid rgb(57, 106, 185);
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 70%;
+    border-radius: 2px;
+}
+.heding2>button:hover
+{
+    background-color: white;
+    color: rgb(57, 106, 185);
+    transition-duration: 1.5s;
+}
+.flexdiv
+{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex
+{
+    height: 80%;
+    width: 28%;
+}
+.flex1
+{
+    background-image: url(tiegif1.gif);
+    background-size: 100% 100%;
+}
+.flex2
+{
+    background-image: url(tiegif2.gif);
+    background-size: 100% 100%;
+}
+.flex3
+{
+    background-image: url(tiegif3.gif);
+    background-size: 100% 100%;
+}
+.flex4
+{
+    height: 7%;
+    text-align: center;
+    color: rgb(95, 94, 94);
+    font-size: 18px;
+}
+.flex5
+{
+    height: 6%;
+    text-align: center;
+    color: rgb(95, 94, 94);
+    font-size: 18px;
+}
+.flex6
+{
+    height: 6%;
+    text-align: center;
+    color: rgb(97, 95, 95);
+    font-size: 18px;
+}
+
+.mask
+{
+    height: 210vh;
+    width: 100%;
+    position: relative;
+    top: 15vh;
+    background-color: rgb(219, 173, 189);
+}
+.maskpic
+{
+    height: 45%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-image: url(maskframe2.jpg);
+    background-size: 100% 100%;
+}
+.heding3
+{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    top: 50%;
+}
+.heding3>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(54, 53, 53);
+    position: absolute;
+    width: 100%;
+    top: 7%;
+}
+.heding3>p
+{
+    font-size: 21px;
+    text-align: center;
+    color:rgb(37, 37, 37);
+    position: absolute;
+    width: 100%;
+    top: 15%;
+}
+.gif2
+{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 23%;
+    background-image: url(maskgif.gif);
+    background-size: 100% 100%;
+}
+.heding3>button
+{
+    height: 8%;
+    width: 17%;
+    background-color: palevioletred;
+    color: white;
+    border-bottom: 4px solid palevioletred;
+    border-top: 2px solid palevioletred;
+    border-left: 2px solid palevioletred;
+    border-right: 2px solid palevioletred;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 78%;
+    border-radius: 2px;
+}
+.heding3>button:hover
+{
+    background-color: white;
+    color: palevioletred;
+    transition-duration: 1.5s;
+}
+.custom
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 20vh;
+    background-image: url(custom.jpg);
+    background-size: 100% 100%;
+}
+
+.heding4
+{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    top: 20vh;
+    background-color: rgb(207, 238, 246);
+}
+.heding4>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: 13%;
+}
+.heding4>p
+{
+    font-size: 21px;
+    text-align: center;
+    color:black;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+.heding4>button
+{
+    height: 18%;
+    width: 15%;
+    background-color:rgb(94, 53, 94);
+    color: white;
+    border-bottom: 4px solid rgb(94, 53, 94);
+    border-top: 2px solid rgb(94, 53, 94);
+    border-left: 2px solid rgb(94, 53, 94);
+    border-right: 2px solid rgb(94, 53, 94);
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 66%;
+    border-radius: 2px;
+}
+.heding4>button:hover
+{
+    background-color: white;
+    color:rgb(94, 53, 94);
+    transition-duration: 1.5s;
+}
+footer
+{
+    height: 45vh;
+    width: 100%;
+    top: 19vh;
+    position: relative;
+    background-image: url(footer22.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+    <nav>
+        <img src="logo.png" alt="">
+        <ul>
+            <li>Shop 
+            </li>
+            <li>Face Masks
+            </li>
+            <li>Neck Gaiters
+            </li>
+            <li class="li1">Weddings
+            </li>
+            <li>Organizations</li>
+            <li>Info
+            </li>
+        </ul>
+        <button>Sign in
+            <i class="fas fa-user-plus"></i>
+        </button>
+    </nav>
+
+    <div class="header1"></div>
+
+    <div class="heding1">
+        <h1>Custom Wedding Ties, Bow Ties, Face Masks & More</h1>
+        <p>We make it <b>easy</b> to get exactly what you want. Design your own wedding ties, bow ties, and more from hundreds of patterns and colors. <br> <br>
+            Perfect groomsmen ties and gifts for the whole wedding party. Ethically made in Denver. Here's how it works:</p>
+
+            <div class="gif"></div>
+
+        <button>Start Designing Now</button>
+    </div>
+    <div class="text">
+        <p>Need something unique? <b>Work with our designers</b> to create custom patterns or one of a kind artwork.</p>
+    </div>
+
+    <div class="framepic"></div>
+
+    <div class="heding2">
+        <h1>Match Color With Confidence</h1>
+        <p>Start with ordering our free Colormatch Chart. Just pay shipping.</p>
+
+        <button>Order ColorMatch Chart</button>
+    </div>
+
+    <div class="flexdiv">
+        <div class="flex flex1"></div>
+        <div class="flex flex2"></div>
+        <div class="flex flex3"></div>
+        <div class="flex flex4">
+            Floral Collection
+        </div>
+        <div class="flex flex5">
+            Geometric Collection
+        </div>
+        <div class="flex flex6">
+            Stripes Collection
+        </div>
+    </div>
+
+    <div class="mask">
+        <div class="maskpic"></div>
+        <div class="heding3">
+            <h1>Wedding Masks To Look Sharp From Head To Toe</h1>
+            <p>Design your own masks, choose solid colors, or personalize them with a custom design.</p>
+    
+                <div class="gif2"></div>
+    
+            <button>Shop Wedding Face Masks</button>
+        </div>
+
+    </div>
+
+    <div class="custom"></div>
+    <div class="heding4">
+        <h1>Designer Created One Of A Kind Wedding Ties</h1>
+        <p>Personalize your groomsmen ties & face masks with artwork, initials, or custom patterns.</p>
+
+        <button>Start A Custom Design</button>
+    </div>
+
+        <footer></footer>
+</body>
+</html>
+

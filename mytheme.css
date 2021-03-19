@@ -1,0 +1,535 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav
+{
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+nav>img
+{
+    height: 65%;
+    width: 7%;
+}
+nav>ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: center;
+}
+nav>ul>li
+{
+    list-style: none;
+    font-size: 16px;
+    color: grey;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding: 3px;
+}
+nav>ul>li:hover
+{
+    color: orangered;
+    font-weight: bold;
+    border-bottom: 2px solid orangered;
+}
+nav>button
+{
+    height: 60%;
+    width: 7%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+nav>button:hover
+{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+.header1
+{
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+    background-image: url(home3.gif);
+    background-size: 100% 100%;
+    animation-name: header;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+/* @keyframes header
+{
+    0%{
+        background-image: url(home1.jpg);
+    }
+    30%{
+        animation-delay: 5s;
+        background-image: url(home2.jpg);
+    }
+    60%
+    {
+        animation-delay: 5s;
+        background-image: url(home3.gif);
+    }
+} */
+
+.heding1
+{
+    height: 35vh;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+    background-color: rgb(216, 213, 213);
+}
+.heding1>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(56, 56, 56);
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+.heding1>p
+{
+    font-size: 21px;
+    text-align: center;
+    color: rgb(126, 125, 125);
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+.heding1>button
+{
+    height: 24%;
+    width: 15%;
+    background-color: orangered;
+    color: white;
+    border-bottom: 4px solid orangered;
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 65%;
+    border-radius: 2px;
+}
+.heding1>button:hover
+{
+    background-color: white;
+    color: orangered;
+    transition-duration: 1.5s;
+}
+
+.flexdiv1
+{
+    height: 180vh;
+    width: 100%;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex
+{
+    height: 43%;
+    width: 28%;
+    position: relative;
+}
+.pic1
+{
+    height: 80%;
+    width: 100%;
+    background-image: url(tie.jpg);
+    background-size: 100% 100%;
+}
+.flex>h3
+{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: rgb(56, 56, 56);
+    font-size: 25px;
+    top: 82%;
+}
+.flex>h3:hover
+{
+    color: orangered;
+}
+.flex>hr
+{
+    height: 2px;
+    width: 12%;
+    background-color: darkgrey;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    border: none;
+}
+.flex>p
+{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    text-align: center;
+    color: gray;
+}
+.pic2
+{
+    background-image: url(knot.jpg);
+}
+.pic3
+{
+    background-image: url(mask.jpg);
+}
+.pic4
+{
+    background-image: url(mask2.jpg);
+}
+.pic5
+{
+    background-image: url(hairban.jpg);
+}
+.pic6
+{
+    background-image: url(pillow.jpg);
+}
+
+
+
+
+
+
+.heding2
+{
+    height: 37vh;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+    background-color: rgb(216, 213, 213);
+}
+.heding2>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(56, 56, 56);
+    position: absolute;
+    width: 100%;
+    top: 19%;
+}
+.heding2>p
+{
+    font-size: 21px;
+    text-align: center;
+    color: rgb(126, 125, 125);
+    position: absolute;
+    width: 100%;
+    top: 38%;
+}
+.heding2>button
+{
+    height: 23%;
+    width: 15%;
+    background-color: orangered;
+    color: white;
+    border-bottom: 4px solid orangered;
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 63%;
+    border-radius: 2px;
+}
+.heding2>button:hover
+{
+    background-color: white;
+    color: orangered;
+    transition-duration: 1.5s;
+}
+
+
+
+
+
+.flexdiv2
+{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    top: 13vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex21
+{
+    height: 85%;
+    width: 28%;
+    position: relative;
+}
+.pic21
+{
+    height: 80%;
+    width: 100%;
+    background-image: url(pillow1.png);
+    background-size: 100% 100%;
+}
+.flex21>h3
+{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: rgb(56, 56, 56);
+    font-size: 25px;
+    top: 82%;
+}
+.flex21>h3:hover
+{
+    color: orangered;
+}
+.flex21>hr
+{
+    height: 2px;
+    width: 12%;
+    background-color: darkgrey;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    border: none;
+}
+.flex21>p
+{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    text-align: center;
+    color: gray;
+}
+.pic22
+{
+    background-image: url(pillow2.jpg);
+}
+.pic23
+{
+    background-image: url(pillow3.jpg);
+}
+
+
+
+
+
+.heding3
+{
+    height: 37vh;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+    background-color: rgb(216, 213, 213);
+}
+.heding3>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(56, 56, 56);
+    position: absolute;
+    width: 100%;
+    top: 19%;
+}
+.heding3>p
+{
+    font-size: 21px;
+    text-align: center;
+    color: rgb(126, 125, 125);
+    position: absolute;
+    width: 100%;
+    top: 38%;
+}
+.heding3>button
+{
+    height: 23%;
+    width: 15%;
+    background-color: orangered;
+    color: white;
+    border-bottom: 4px solid orangered;
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top: 63%;
+    border-radius: 2px;
+}
+.heding3>button:hover
+{
+    background-color: white;
+    color: orangered;
+    transition-duration: 1.5s;
+}
+
+
+
+
+
+.flexdiv3
+{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    top: 13vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex31
+{
+    height: 85%;
+    width: 28%;
+    position: relative;
+}
+.pic31
+{
+    height: 80%;
+    width: 100%;
+    background-image: url(wall1.jpg);
+    background-size: 100% 100%;
+}
+.flex31>h3
+{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: rgb(56, 56, 56);
+    font-size: 25px;
+    top: 82%;
+}
+.flex31>h3:hover
+{
+    color: orangered;
+}
+.flex31>hr
+{
+    height: 2px;
+    width: 12%;
+    background-color: darkgrey;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    border: none;
+}
+.flex31>p
+{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    text-align: center;
+    color: gray;
+}
+.pic32
+{
+    background-image: url(wall2.jpg);
+}
+.pic33
+{
+    background-image: url(wall3.jpg);
+}
+
+
+
+.heding4
+{
+    height: 37vh;
+    width: 100%;
+    position: relative;
+    top: 10vh;
+    background-color: rgb(216, 213, 213);
+}
+.heding4>h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(56, 56, 56);
+    position: absolute;
+    width: 100%;
+    top: 19%;
+}
+.heding4>p
+{
+    font-size: 21px;
+    text-align: center;
+    color: rgb(126, 125, 125);
+    position: absolute;
+    width: 100%;
+    top: 38%;
+}
+.heding4>button
+{
+    height: 23%;
+    width: 17%;
+    background-color: orangered;
+    color: white;
+    border-bottom: 4px solid orangered;
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 41%;
+    top: 63%;
+    border-radius: 2px;
+}
+.heding4>button:hover
+{
+    background-color: white;
+    color: orangered;
+    transition-duration: 1.5s;
+}
+
+
+
+footer
+{
+    height: 45vh;
+    width: 100%;
+    top: 10vh;
+    position: relative;
+    background-image: url(footer22.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+.a1
+{
+    color: grey;
+    text-decoration: none;
+}
+.a1:hover
+{
+    color: orangered;
+}
